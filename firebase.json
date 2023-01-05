@@ -1,5 +1,9 @@
 {
   "hosting": {
+"homepage": "https://myang5128.github.io/facebook-clone",
+"headers": [
+      {"source": "/service-workers.js", "headers": [{"key": "Cache-Control", "value": "no-cache"}]}
+      ],
     "public": "build",
     "ignore": [
       "firebase.json",
